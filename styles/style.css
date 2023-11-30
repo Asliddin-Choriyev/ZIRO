@@ -1,0 +1,940 @@
+/* ===================================================== HEADER ===================================================== */
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  /* margin-top: 3.6rem; */
+  background-color: #f5f7ff;
+  margin-left: 4.5rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo > h1 {
+  width: 5.2rem;
+  height: 2.6rem;
+  flex-shrink: 0;
+  color: #272626;
+  font-family: OdibeSans;
+  font-size: 2.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.145rem;
+}
+.menues {
+  display: flex;
+  column-gap: 3.5rem;
+  width: 45.3rem;
+  height: 1.9rem;
+  margin-left: 5.6rem;
+}
+.menues > a {
+  color: #272323;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 171.429% */
+  letter-spacing: 0.028rem;
+  position: relative;
+  transition: all 2s l;
+}
+.menues > a:hover {
+  color: red;
+  rotate: 5deg;
+  transition: 0.2s linear;
+  size: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 30.7rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 5rem;
+  margin-left: 6.7rem;
+}
+.search-box > input {
+  width: 85%;
+  height: 1.8rem;
+  color: black;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.2rem; /* 442.857% */
+  letter-spacing: 0.028rem;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+  margin-left: 0.6rem;
+}
+.search-box > .search-icon {
+  background-color: #c0c2f838;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.sign {
+  margin-left: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.7rem;
+  height: 1.9rem;
+  column-gap: 0.5rem;
+}
+.menu-bar {
+  display: none;
+}
+.sign > a:hover {
+  color: #2d1bf1;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.2rem; /* 387.5% */
+  letter-spacing: 0.032rem;
+}
+.sign > a {
+  color: #272323;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.2rem;
+  letter-spacing: 0.032rem;
+}
+
+/* Header */
+header {
+  padding-left: 15rem;
+  background-color: #f5f7ff;
+  padding-top: 3rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  margin-left: 4.5rem;
+  column-gap: 1.5rem;
+}
+main > .left-part > h1 {
+  width: 52.4rem;
+  height: 16.4rem;
+  color: #353434;
+  font-family: Prompt;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.5rem; /* 122.222% */
+  letter-spacing: 0.315rem;
+}
+main > .left-part > h1 > span {
+  color: #ff5c00;
+  font-family: Prompt;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.5rem;
+  letter-spacing: 0.315rem;
+}
+main > .left-part > p {
+  color: #a8a8a8;
+  width: 54.3rem;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 171.429% */
+  letter-spacing: 0.028rem;
+  margin-top: 1.8rem;
+}
+.discover-btn > button:hover {
+  background: linear-gradient(rgb(27, 142, 219), white, rgb(121, 174, 235));
+  color: black;
+  transition: 1s;
+}
+.discover-btn > button {
+  margin-top: 3rem;
+  border-radius: 0.6rem;
+  background: #544cac;
+  box-shadow: 0rem 0.4rem 1.2rem 0rem rgba(0, 0, 0, 0.2);
+  width: 15rem;
+  height: 4.4rem;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.2rem; /* 387.5% */
+  letter-spacing: 0.032rem;
+}
+.discover-items {
+  display: flex;
+  align-items: center;
+  gap: 3.4rem;
+}
+.watch-demo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.watch-demo > p {
+  color: #000;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.2rem; /* 387.5% */
+  letter-spacing: 0.032rem;
+}
+.back-pg {
+  width: 60.9rem;
+  height: 55.5rem;
+  flex-shrink: 0;
+}
+main > .right-part {
+  margin-top: 4rem;
+}
+/* =============================================================================== CLIENTS LOGOS ==========================================  */
+.client-logos {
+  display: flex;
+  align-items: center;
+  column-gap: 13.6rem;
+  margin-left: 18.9rem;
+  margin-top: 3.9rem;
+}
+marquee {
+  margin-left: 19rem;
+  outline: 0.03rem dashed gray;
+  animation: marquee 2s linear infinite;
+}
+/* ==================================================================================== FIND JOBS========================================== */
+.find-jobs {
+  display: flex;
+  /* align-items: center; */
+  margin-left: 18.6rem;
+  margin-top: 8rem;
+  column-gap: 6rem;
+}
+.find-jobs > .left-part > h2 {
+  color: #353434;
+  font-family: Oswald;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem; /* 125% */
+  letter-spacing: 0.2rem;
+  width: 42.3rem;
+  height: 9.4rem;
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+}
+.find-jobs > .left-part > p {
+  color: #ff5c00;
+  font-family: Oswald;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem; /* 416.667% */
+  letter-spacing: 0.06rem;
+  margin-top: -6rem;
+}
+.find-jobs > .right-part > img {
+  width: 65.5rem;
+  height: 43.3rem;
+  flex-shrink: 0;
+}
+.accardion > .list {
+  margin-top: 3.6rem;
+  width: 43.5rem;
+  /* height: 5.8rem; */
+  flex-shrink: 0;
+  border-radius: 0.8rem;
+  background: #f5f7ff;
+  overflow: hidden;
+  padding-bottom: 0rem;
+  cursor: pointer;
+}
+.list > h1 {
+  color: #323232;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5rem;
+  letter-spacing: 0.032rem;
+  display: flex;
+  align-items: center;
+  width: 47.4rem;
+  height: 1.7rem;
+  margin-left: 2rem;
+  column-gap: 5rem;
+  margin-top: 2rem;
+}
+.list > h1 > span {
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 0.6rem;
+  background: #f3e0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  position: relative;
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  color: #a8a8a8;
+  font-family: Open Sans;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem; /* 183.333% */
+  letter-spacing: 0.024rem;
+  font-family: OpenSans;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.2rem; /* 183.333% */
+  letter-spacing: 0.024rem;
+}
+.list > h1::after {
+  content: "➡️";
+  margin-left: 12rem;
+}
+.list:nth-child(3) > h1::after {
+  content: "➡️";
+  margin-left: 18rem;
+}
+.list.active .content {
+  height: auto;
+}
+.list.active h1::after {
+  content: "⬇️";
+}
+/* ============================================================================================= WHO CHOOSE US */
+.choose-us {
+  margin-left: 16.5rem;
+  margin-top: 8rem;
+}
+.choose-cards {
+  display: flex;
+  column-gap: 6.5rem;
+}
+.choose-cards > .card {
+  width: 35rem;
+  height: 23.5rem;
+  border-radius: 2rem;
+  background: #fff;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  position: relative;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.choose-cards > .card > span {
+  position: absolute;
+  top: 17%;
+  left: 14%;
+}
+.choose-cards > .card > span > img {
+  border-radius: 0.7rem;
+  background: #6156dc;
+  padding: 1.3rem;
+}
+.choose-cards > .card > h2 {
+  margin-top: 12rem;
+  margin-left: 5rem;
+  font-family: OpenSans;
+}
+.choose-cards > .card > p {
+  font-size: 1.3rem;
+  font-family: OpenSans;
+  width: 29.5rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+.choose-cards > .card:hover {
+  transform: translateY(-8%);
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  transition: all 0.5s ease-in-out;
+}
+.choose-cards > .card:hover img {
+  background-color: rgb(255, 136, 0);
+}
+/* ===========================================================================  FEATURED JOBS =================================================================== */
+.featured-jobs {
+  margin-left: 15.6rem;
+  margin-top: 8rem;
+}
+.featured-jobs > div {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  position: relative;
+}
+.featured-jobs > div > .slider-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 250px;
+}
+
+.featured-jobs > div > .slider-btns > button {
+  width: 10rem;
+  height: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  border: 2px solid blue;
+  position: absolute;
+}
+.prev {
+  margin-left: -115px;
+}
+
+.featured-jobs > div > .slider-btns > button:hover {
+  width: 10rem;
+  height: 5rem;
+}
+.jobs-slider {
+  max-width: 130rem;
+  display: flex;
+  gap: 9rem;
+  /* overflow: hidden; */
+  height: 50rem;
+  transition: all 0.3s linear;
+  position: absolute;
+  margin-left: 1rem;
+}
+.view-more:hover {
+  background: linear-gradient(lightblue, green);
+}
+.view-more:active {
+  transition: all 2s linear;
+}
+.view-more {
+  position: absolute;
+  width: 22rem;
+  height: 6rem;
+  z-index: 2;
+  left: -5rem;
+  top: 70%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+}
+.sliderBox {
+  margin-left: 10rem;
+  max-width: 140rem;
+  position: relative;
+
+  margin-top: -25rem;
+}
+
+.job-slide {
+  min-width: 33rem;
+  height: 37.5rem;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.7rem;
+  margin-top: 5rem;
+}
+.job-slide:hover {
+  transform: translateY(-5%);
+  transition: all 0.3s linear;
+  background-color: rgb(255, 246, 246);
+}
+.job-slide > img {
+  border-radius: 50%;
+  border: 0.4rem solid rgb(241, 141, 105);
+  width: 7rem;
+  height: 7rem;
+  margin-top: 4rem;
+  margin-left: 12.5rem;
+}
+.job-slide > .job-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: OpenSans;
+}
+.job-slide > .team-title {
+  font-size: 1.5rem;
+  font-family: Prompt;
+  color: #2d1bf1;
+  text-align: center;
+  margin-top: 1.3rem;
+}
+.job-slide > .job-price {
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.job-slide > .job-price > p {
+  font-size: 1.5rem;
+  font-family: OpenSans;
+}
+.job-slide > .job-price > p > span {
+  font-size: 1.4rem;
+  color: gray;
+}
+.job-slide > .location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  margin-top: 1.5rem;
+}
+.job-slide > .location > p {
+  font-size: 1.5rem;
+  font-family: OpenSans;
+}
+.job-slide > .location > p > span {
+  font-size: 1.4rem;
+  color: gray;
+  margin-left: 1.5rem;
+}
+.job-slide > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.job-slide > div:last-child > button {
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  background-color: #6156dc;
+  outline: none;
+  border: none;
+  color: white;
+}
+.job-slide > .dots-menu {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  top: 3%;
+  left: 80%;
+}
+.job-slide > .dots-menu > p {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+/* ==================================================================== CUSTOMER'S COMMENTS ================================================================ */
+.comments {
+  margin-top: 25rem;
+  position: relative;
+}
+.comments .comments-slide {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+.comments .univer-title {
+  width: 45rem;
+  margin-left: 50rem;
+}
+.comments .univer-p {
+  margin-left: 45rem;
+}
+.comments-box {
+  position: relative;
+  max-width: 144rem;
+}
+.comments-carusel {
+  position: absolute;
+  display: flex;
+  gap: 16rem;
+  transition: all 0.3s linear;
+}
+.comments .left-part {
+  margin-left: 15.6rem;
+}
+.comments .left-part > img {
+  width: 36rem;
+  height: 36rem;
+}
+.comments .right-part {
+  width: 73rem;
+}
+.comments .comments-slide > .right-part > h3 + p {
+  color: #868686;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 171.429% */
+  letter-spacing: 0.028rem;
+}
+.comments .comments-slide > .right-part > h3 {
+  color: #323232;
+  font-family: OpenSans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem; /* 150% */
+  letter-spacing: 0.04rem;
+}
+.comments .grade {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  /* margin-top: 2rem; */
+}
+.comments .right-part > p:nth-child(4) {
+  color: #383838;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 171.429% */
+  letter-spacing: 0.028rem;
+}
+.comments .grade > p {
+  color: #323232;
+  font-family: OpenSans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem; /* 150% */
+  letter-spacing: 0.04rem;
+}
+.comments-slider-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 55rem; */
+  gap: 1rem;
+  /* position: absolute; */
+}
+
+.comments-slider-btns button:nth-child(1) {
+  top: 32rem;
+  left: 54rem;
+}
+.comments-slider-btns button:nth-child(2) {
+  left: 61rem;
+  top: 32rem;
+}
+.comments-slider-btns button {
+  width: 5rem;
+  height: 5rem;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 0.5rem;
+  color: rgb(248, 114, 66);
+  font-size: 3.2rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.comments-slider-btns button:hover {
+  background-color: rgb(248, 114, 66);
+  color: white;
+}
+.comments .other-comments {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 4.45rem;
+}
+.comments .other-comments > img,
+.other-comments span {
+  border-radius: 50%;
+  position: absolute;
+  top: 100%;
+  border: 0.5rem solid rgb(248, 114, 66);
+}
+.other-comments span {
+  width: 5.2rem;
+  height: 5.2rem;
+  background-color: #a9a3e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 92%;
+  border: none;
+}
+.other-comments > img:nth-child(1) {
+  left: 80%;
+}
+.other-comments > img:nth-child(2) {
+  left: 84%;
+}
+.other-comments > img:nth-child(3) {
+  left: 88%;
+}
+/* ================================================================= STATISTICS ============================================================= */
+.statistics {
+  width: 111rem;
+  height: 22.9rem;
+  border-radius: 3rem;
+  background: #ced5f4;
+  margin-top: 50rem;
+  margin-left: 16.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+span > h3 {
+  color: #584ec6;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5rem; /* 125% */
+  letter-spacing: 0.2rem;
+}
+span > p {
+  color: #fff;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 150% */
+  letter-spacing: 0.032rem;
+}
+/* ============================================================ PRICING PLAN =================================================================== */
+.pricing-plans {
+  margin-left: 16.5rem;
+  margin-top: 11.9rem;
+}
+.plans {
+  display: flex;
+  gap: 3rem;
+}
+.plan {
+  border-radius: 2rem;
+  background: #fff;
+  box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  width: 35rem;
+  height: 53.7rem;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: 7.5rem;
+}
+.plan:hover {
+  transform: translateY(-5%);
+  transition: all 0.5s linear;
+  background-color: #f9faff;
+}
+.plan:hover .buy {
+  background-color: #544cac;
+}
+.plan .type {
+  position: absolute;
+  top: 6.3rem;
+  left: 13.4rem;
+  color: #4238af;
+  font-family: OpenSans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem; /* 150% */
+  letter-spacing: 0.04rem;
+  letter-spacing: 0.04rem;
+  text-align: center;
+}
+.plan .price {
+  position: absolute;
+  top: 11.1rem;
+  left: 38%;
+  color: #353434;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 5.5rem; /* 122.222% */
+  letter-spacing: 0.315rem;
+}
+
+.plan .expired-time {
+  position: absolute;
+  top: 19.2rem;
+  left: 13rem;
+  color: #8a86b9;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 150% */
+  letter-spacing: 0.032rem;
+}
+.how-comforts {
+  position: absolute;
+  top: 28.1rem;
+  left: 19%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.9rem;
+}
+.may-use {
+  color: #a8a8a8;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem; /* 171.429% */
+  letter-spacing: 0.028rem;
+  display: flex;
+  align-items: center;
+  gap: 1.12rem;
+}
+.buy {
+  position: absolute;
+  top: 45.2rem;
+  left: 25%;
+  border-radius: 5rem;
+  background: #bdbbd9;
+  border: none;
+  width: 17.2rem;
+  height: 4.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.2rem; /* 387.5% */
+  letter-spacing: 0.032rem;
+}
+/* ======================================================= FOOTER==================================================================== */
+footer {
+  margin-top: 11.9rem;
+  border-radius: 3rem 3rem 0rem 0rem;
+  background: #dbe2ff;
+  width: 153.6rem;
+  height: 44.5rem;
+  position: relative;
+}
+footer > .sections {
+  display: flex;
+  position: absolute;
+  left: 16rem;
+  top: 11rem;
+  max-width: 119rem;
+  gap: 13rem;
+  border: none;
+  /* justify-content: space-between; */
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-section > h4 {
+  color: #353434;
+  font-family: Oswald;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0.048rem;
+}
+.footer-section > p {
+  color: #717171;
+  font-family: OpenSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 162.5% */
+  letter-spacing: 0.032rem;
+}
+footer > div {
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+  position: absolute;
+  top: 39rem;
+  left: 16.5rem;
+  border-top: 0.2rem solid #625bae;
+  padding-top: 1.2rem;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+footer .footer-menues {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+footer .footer-menues > p {
+  color: #3a2e5c;
+  font-family: OpenSans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.6rem; /* 185.714% */
+  letter-spacing: 0.028rem;
+}
+.footer-logo > img {
+  width: 2.6rem;
+}
+.footer-logo > p {
+  color: #272626;
+  font-family: OdibeSans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.08rem;
+}
+/* Animations */
+@keyframes marquee {
+  from {
+    outline: none;
+  }
+  to {
+    outline: 0.03rem dashed gray;
+  }
+  from {
+    outline: none;
+  }
+  to {
+    outline: 0.03rem dashed blue;
+  }
+}

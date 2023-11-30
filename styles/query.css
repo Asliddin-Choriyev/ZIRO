@@ -1,0 +1,661 @@
+@media (max-width: 1440px) {
+  .view-more {
+    left: -3%;
+  }
+  .menues {
+    gap: 3rem;
+    width: 75rem;
+  }
+  .menues > a:nth-child(1),
+  .menues > a:nth-child(3),
+  .menues > a:nth-child(6) {
+    display: none;
+  }
+  .search-box {
+    margin-left: -15rem;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    margin-left: -15rem;
+  }
+  .search-box {
+    margin-left: -22rem;
+  }
+  .sign {
+    margin-left: 1rem;
+  }
+  marquee {
+    margin-left: 24rem;
+  }
+  .find-jobs > .right-part > img {
+    width: 62rem;
+  }
+  .choose-cards {
+    margin-left: 3rem;
+    gap: 3rem;
+  }
+  .jobs-slider {
+    margin-left: 10rem;
+    gap: 12rem;
+  }
+  .prev {
+    margin-left: 5rem;
+  }
+  .next {
+    left: -10rem;
+  }
+  .view-more {
+    left: 2%;
+  }
+  .comments-carusel {
+    gap: 17rem;
+  }
+  footer > .sections {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    position: relative;
+  }
+  .menues > a:nth-child(1),
+  .menues > a:nth-child(3),
+  .menues > a:nth-child(6) {
+    display: block;
+  }
+  .menues {
+    margin-left: -15rem;
+    position: absolute;
+    top: 0;
+    left: 120%;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7rem;
+    opacity: 0.8;
+  }
+  .menues > a {
+    font-size: 4.2rem;
+  }
+  .search-box {
+    margin-left: 15rem;
+    width: 28rem;
+  }
+  .sign {
+    margin-left: 5rem;
+  }
+  .menu-bar {
+    margin-left: 15rem;
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  .open,
+  .cancel {
+    font-size: 3.2rem;
+    rotate: 90deg;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+  }
+  header > main {
+    gap: 0;
+  }
+  header > main > .right-part > img {
+    width: 45rem;
+    height: 45rem;
+  }
+  .find-jobs > .right-part > img {
+    width: 45rem;
+    height: 40rem;
+  }
+  .choose-cards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0rem;
+  }
+  .choose-us {
+    margin-left: 10rem;
+  }
+  .featured-jobs {
+    margin-left: 10rem;
+  }
+  .jobs-slider {
+    margin-left: 17rem;
+    gap: 8rem;
+  }
+  .prev {
+    left: 3rem;
+  }
+  .next {
+    left: -22rem;
+  }
+  .view-more {
+    left: 8%;
+  }
+  .comments {
+    margin-left: -5rem;
+  }
+  .comments-carusel {
+    gap: 34rem;
+    margin-left: 5rem;
+  }
+  .comments-slide {
+    width: 110rem;
+  }
+  .statistics {
+    width: 90rem;
+    margin-left: 21rem;
+  }
+  .pricing-plans {
+    margin-left: 10rem;
+    margin-top: 2rem;
+  }
+  .plans {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0rem;
+  }
+  footer > .sections {
+    gap: 8rem;
+  }
+  footer > .sections + div > .footer-menues {
+    gap: 5rem;
+  }
+  .sections + div {
+    gap: 9rem;
+  }
+}
+@media (max-width: 900px) {
+  .search-box {
+    margin-left: 4rem;
+  }
+  main {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  marquee {
+    margin-top: 5rem;
+    margin-left: 21rem;
+  }
+  .find-jobs {
+    gap: 15rem;
+  }
+  .find-jobs > .left-part {
+    width: 30rem;
+  }
+  .find-jobs > .right-part > img {
+    width: 40rem;
+  }
+  .univer-title {
+    margin-left: 35rem;
+  }
+  .univer-p {
+    margin-left: 22rem;
+  }
+  /* .prev {
+    left: 5rem;
+  } */
+  .next {
+    left: -32rem;
+  }
+  .comments {
+    margin-left: -13rem;
+  }
+  .comments-slide {
+    width: 100rem;
+  }
+  .comments-carusel {
+    gap: 44rem;
+    margin-left: 13rem;
+  }
+  .go {
+    margin-left: 15rem;
+    margin-top: 1rem;
+  }
+  .back {
+    margin-left: 15rem;
+    margin-top: 1rem;
+  }
+  .other-comments {
+    top: -3rem;
+  }
+  .statistics {
+    width: 78rem;
+  }
+
+  footer > .sections {
+    margin-top: -3rem;
+    gap: 5rem;
+  }
+  footer > .sections + div {
+    gap: 4rem;
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    margin-left: -15rem;
+  }
+  .search-box {
+    width: 25rem;
+  }
+  .menu-bar {
+    margin-left: 11rem;
+  }
+  main > .right-part {
+    margin-top: 2rem;
+  }
+  .find-jobs {
+    margin-left: 15rem;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .find-jobs > .right-part > img {
+    width: 70rem;
+  }
+  .find-jobs .left-part {
+    margin-left: -13rem;
+  }
+  .find-jobs .left-part > .accardion > .list {
+    width: 55rem;
+    position: relative;
+    margin-left: -6rem;
+  }
+  .list > h1::after {
+    position: absolute;
+    right: 1rem;
+    font-size: 1.9rem;
+  }
+  .choose-us {
+    margin-left: 7rem;
+  }
+  .choose-cards {
+    margin-left: 8rem;
+  }
+  .featured-jobs {
+    margin-left: 7rem;
+  }
+  .view-more {
+    left: 12rem;
+  }
+  .prev {
+    left: 5rem;
+  }
+  .next {
+    transform: translateY(940%);
+    left: -105rem;
+    z-index: 2;
+  }
+  .comments {
+    margin-left: -16rem;
+  }
+  .comments-carusel {
+    margin-left: 15rem;
+    gap: 54rem;
+  }
+  .comments-slide {
+    width: 90rem;
+  }
+  .go {
+    margin-top: 3rem;
+  }
+  .back {
+    margin-top: 3rem;
+  }
+  .statistics {
+    width: 70rem;
+    margin-left: 20rem;
+  }
+  footer {
+    height: 70rem;
+  }
+  footer > .sections {
+    display: grid;
+    column-gap: 10rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer > .sections + div {
+    margin-top: 25rem;
+    gap: 6rem;
+  }
+  footer > .sections + div > .footer-menues {
+    gap: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  marquee {
+    margin-left: 19rem;
+  }
+  .comments-carusel {
+    gap: 6rem;
+  }
+  .comments-slide {
+    width: 88rem;
+  }
+  .statistics {
+    margin-left: 18.5rem;
+  }
+  .univer-p {
+    margin-left: 17rem;
+  }
+  .pricing-plans {
+    margin-left: 15rem;
+  }
+  footer > .sections + div {
+    gap: 4rem;
+  }
+  .menues > a {
+    font-size: 4.5rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+@media (max-width: 700px) {
+  .menues > a {
+    font-size: 4rem;
+  }
+  .menu-bar {
+    margin-left: 8rem;
+  }
+  .search-box {
+    width: 20rem;
+  }
+  .find-jobs > .right-part > img {
+    width: 60rem;
+  }
+
+  .comments {
+    margin-left: -20rem;
+  }
+  .comments-carusel {
+    margin-left: 20rem;
+    gap: 14rem;
+  }
+  .comments-slide {
+    width: 80rem;
+  }
+  .comments-slide > .left-part > img {
+    width: 30rem;
+  }
+  .statistics {
+    width: 65rem;
+    margin-left: 18rem;
+  }
+  .pricing-plans {
+    margin-left: 5rem;
+  }
+  .plans {
+    margin-left: 5rem;
+    gap: 10rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+  footer > .sections {
+    margin-left: 4rem;
+  }
+  footer > .sections + div > .footer-menues > p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+  .search-box {
+    width: 12rem;
+  }
+  .search-box > input:focus .sign {
+    background-color: red;
+  }
+  marquee {
+    width: 52rem;
+  }
+  .find-jobs > .right-part > img {
+    width: 55rem;
+  }
+  .univer-title {
+    margin-left: 24rem;
+  }
+  .univer-p {
+    margin-left: 11rem;
+    width: 52rem;
+  }
+  .prev {
+    top: 50rem;
+    z-index: 2;
+  }
+  .jobs-slider {
+    margin-top: 1rem;
+  }
+  .comments {
+    margin-top: 30rem;
+  }
+  .comments-carusel {
+    margin-top: 5rem;
+    gap: 24rem;
+  }
+  .comments-slide {
+    width: 70rem;
+  }
+  .comments-slide > .left-part > img {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 40rem;
+  }
+  .back {
+    margin-left: -15rem;
+    margin-top: 1rem;
+  }
+  .comments .univer-p {
+    margin-left: 38rem;
+  }
+  .comments .univer-title {
+    margin-left: 45rem;
+  }
+  .statistics {
+    margin-left: 17rem;
+    width: 55rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-plans {
+    margin-left: 10rem;
+  }
+  footer {
+    height: 90rem;
+  }
+  footer > .sections {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10rem;
+  }
+  footer > .sections + div {
+    margin-top: 45rem;
+    margin-left: 5rem;
+  }
+  footer > .sections + div .social-icons {
+    margin-top: -35rem;
+    margin-left: -25rem;
+  }
+  footer > .sections + div .social-icons > img {
+    width: 25rem;
+  }
+  footer > .sections + div .social-icons::before {
+    content: "Follow";
+    position: absolute;
+    top: -23rem;
+    left: 29rem;
+    color: #353434;
+    font-family: Oswald;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0.048rem;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 475px) {
+  .menu-bar {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .logo {
+    margin-left: -2rem;
+  }
+  .menu-bar {
+    margin-left: 5rem;
+  }
+  .search-box {
+    width: 7rem;
+  }
+  main > .left-part > p {
+    width: 48rem;
+  }
+  marquee {
+    width: 43rem;
+    margin-left: 20rem;
+  }
+  .find-jobs > .right-part > img {
+    width: 44rem;
+  }
+  .find-jobs .left-part > .accardion > .list {
+    width: 45rem;
+    position: relative;
+    margin-left: -1rem;
+  }
+  .univer-p {
+    width: 40rem;
+    color: red;
+    margin-left: 15rem;
+  }
+  .comments > .univer-title {
+    margin-left: 41rem;
+  }
+  .comments > .univer-p {
+    margin-left: 40rem;
+  }
+  .comments-carusel {
+    gap: 29rem;
+  }
+  .comments-slide {
+    width: 65rem;
+  }
+  .back {
+    margin-top: 3rem;
+  }
+  .statistics {
+    width: 49rem;
+  }
+  footer > .sections {
+    margin-left: 5rem;
+  }
+  footer > .sections + div {
+    margin-top: 45rem;
+    margin-left: 2rem;
+  }
+  footer > .sections + div .social-icons {
+    margin-left: -29rem;
+  }
+}
+@media (max-width: 400px) {
+  .search-box {
+    width: 4rem;
+    margin-left: 4rem;
+  }
+  .menu-bar {
+    margin-left: 6rem;
+  }
+  main > .left-part > p {
+    margin-top: 5rem;
+  }
+  main > .left-part > h1 {
+    width: 45rem;
+  }
+  .search-box {
+    width: 0;
+  }
+  .sign {
+    margin-left: 5rem;
+  }
+  .search-box .search-icon {
+    position: absolute;
+    left: 33rem;
+  }
+  marquee {
+    margin-left: 19rem;
+  }
+  .comments-carusel {
+    gap: 32rem;
+  }
+  .comments-slide {
+    width: 62rem;
+  }
+  .comments-slide > .left-part img {
+    display: none;
+  }
+  .statistics {
+    width: 46rem;
+  }
+  .pricing-plans > .univer-title {
+    margin-left: 20rem;
+  }
+  .pricing-plans > .univer-p {
+    margin-left: 10rem;
+  }
+  footer > .sections + div {
+    gap: 2rem;
+  }
+  footer > .sections + div .social-icons {
+    margin-left: -29rem;
+  }
+}
+@media (max-width: 375px) {
+  marquee {
+    margin-left: 17rem;
+  }
+  .univer-p {
+    margin-left: 12rem;
+  }
+  .univer-title {
+    margin-left: 17rem;
+  }
+  .comments > .univer-title {
+    margin-left: 37rem;
+  }
+  .comments > .univer-p {
+    margin-left: 37rem;
+  }
+  .comments-carusel {
+    gap: 34rem;
+  }
+  .comments-slide {
+    width: 60rem;
+  }
+  .statistics {
+    width: 43rem;
+  }
+  footer > .sections + div {
+    gap: 1rem;
+  }
+  footer > .sections + div > .footer-menues {
+    gap: 1.5rem;
+  }
+  footer > .sections + div .social-icons {
+    margin-left: -29rem;
+  }
+}
