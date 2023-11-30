@@ -37,7 +37,7 @@
   marquee {
     margin-left: 24rem;
   }
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 62rem;
   }
   .choose-cards {
@@ -117,7 +117,7 @@
     width: 45rem;
     height: 45rem;
   }
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 45rem;
     height: 40rem;
   }
@@ -198,7 +198,7 @@
   .find-jobs > .left-part {
     width: 30rem;
   }
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 40rem;
   }
   .univer-title {
@@ -267,7 +267,7 @@
     gap: 5rem;
   }
 
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 70rem;
   }
   .find-jobs .left-part {
@@ -377,7 +377,7 @@
   .search-box {
     width: 20rem;
   }
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 60rem;
   }
 
@@ -427,7 +427,7 @@
   marquee {
     width: 52rem;
   }
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 55rem;
   }
   .univer-title {
@@ -539,7 +539,7 @@
     width: 43rem;
     margin-left: 20rem;
   }
-  .find-jobs > .right-part > img {
+  .find-jobs > .right-part > iframe {
     width: 44rem;
   }
   .find-jobs .left-part > .accardion > .list {
