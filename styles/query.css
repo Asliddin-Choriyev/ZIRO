@@ -1,3 +1,12 @@
+@media (max-width: 1536px) {
+  .menues {
+    gap: 3rem;
+    width: 75rem;
+  }
+  .search-box {
+    margin-left: -15rem;
+  }
+}
 @media (max-width: 1440px) {
   .view-more {
     left: -3%;

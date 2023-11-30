@@ -161,6 +161,7 @@ function searchResizer() {
 }
 if (window.innerWidth <= 400) {
   const searchIcon = document.querySelector(".search-icon");
+  const menuBar = document.querySelector(".menu-bar");
   searchIcon.addEventListener("click", () => {
     const searchBox = document.querySelector(".search-box");
     const searchInput = document.querySelector(".search-box>input");
@@ -168,7 +169,8 @@ if (window.innerWidth <= 400) {
     searchInput.addEventListener("input", () => {
       searchInput.value
         ? (searchBox.style.width = "30rem")
-        : (searchBox.style.width = "4rem");
+        : ((searchBox.style.width = "4rem"),
+          (menuBar.style.marginLeft = "2rem"));
     });
   });
 }

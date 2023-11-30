@@ -85,6 +85,11 @@ nav {
   padding: 1rem;
 }
 
+.menues > a:nth-child(1),
+.menues > a:nth-child(3),
+.menues > a:nth-child(6) {
+  display: none;
+}
 .sign {
   margin-left: 3.3rem;
   display: flex;
